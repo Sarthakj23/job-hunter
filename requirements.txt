@@ -1,0 +1,27 @@
+# Graph
+langgraph>=0.2.60
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+
+# Google Gemini
+# 4.0+ moved onto the consolidated google-genai SDK and added Vertex AI support.
+langchain-google-genai>=4.0.0
+google-genai>=1.0.0
+
+# Search
+langchain-tavily>=0.1.0     # optional; DuckDuckGo is the fallback
+duckduckgo-search>=6.0.0
+
+# Resume parsing
+pypdf>=4.0.0
+
+# Browser automation
+playwright>=1.44.0
+# after installing:  playwright install chromium
+
+# UI
+streamlit>=1.36.0
+
+pydantic>=2.7
+python-dotenv>=1.0.0
